@@ -1,0 +1,13 @@
+ordinary {'distance_novelty': 0.05385164807134505, 'rarity': 0.06734770248775204, 'rediscovery_similarity': 0.4902769724327241, 'novelty_score': 0.0, 'replication': 0.9, 'yield': 0.8, 'latent_yield_score': 0.0, 'emergent': False}
+rediscovered_rare {'distance_novelty': 0.9276313923105448, 'rarity': 0.997918505649274, 'rediscovery_similarity': 0.9781283844172108, 'novelty_score': 0.4737107567713039, 'replication': 0.9, 'yield': 0.8, 'latent_yield_score': 0.34107174487533887, 'emergent': True}
+new_region {'distance_novelty': 0.9192388155425117, 'rarity': 0.9644769517306361, 'rediscovery_similarity': 0.7742649237789454, 'novelty_score': 0.5547254217471012, 'replication': 0.9, 'yield': 0.8, 'latent_yield_score': 0.39940230365791285, 'emergent': True}
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py", line 32317, in hydrate_crdt_from_proto
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.
